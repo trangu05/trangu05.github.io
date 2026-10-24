@@ -76,11 +76,13 @@ a:hover {
 
 .site-header {
   padding-top: 3.25rem;
+  text-align: center;
 }
 
 .brand {
   display: inline-block;
   border: 0;
+  padding-left: 0.22em;
   color: var(--ink);
   font-size: 1.6rem;
   letter-spacing: 0.22em;
@@ -101,6 +103,7 @@ a:hover {
 .nav-links {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 2.1rem;
   margin: 0;
   padding: 0;
